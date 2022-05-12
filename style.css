@@ -1,0 +1,55 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  text-align: center;
+}
+button{
+  display: block;
+  margin: 20px auto;
+}
+ul{
+  width: 100px;
+  height: 350px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin-top: 0 auto;
+  text-align: center;
+  width: 94px;
+  height: 69px;
+  border: 1px solid black;
+  
+}
+h2{
+  font-size: 100px;
+  color: red;
+  font-weight: bold;
+}
+
+#hi{
+  background: rgba(241,63,247,1);
+}
+#bye{
+  background: rgba(0,253,81,1);
+}
+#bathroom{
+  background: rgba(0,254,255);
+}
+#yes{
+  background: rgba(255,240,0,1);
+}
+#no{
+  background: rgba(245,120,10,1);
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
