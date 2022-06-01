@@ -1,118 +1,90 @@
-/* Box Model Hack */
-*{
+ *::before, *::after{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-/******************************************
-/*DO NOT CHANGE*/
-/******************************************/
-#voiceSelect{
-  float: center;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
 }
-/******************************************
-/* LAYOUT
-/******************************************/
-h1{
-  text-align: center;
+
+.container{
+  margin: 0 auto;
+  max-width: 80%;
 }
-.flex-container{
-  display: flex;
+
+#voiceSelect {
+  margin-block: 1rem;
 }
-.flex-containerOne{
-  display: flex;
-}
-.flex-containerTwo{
-  display: flex;
-}
-.flex-containerThree{
-  display: flex;
-}
-div{
-  flex: 1 1 1%;
-}
+
 /******************************************
 /* PHRASES
 /******************************************/
 
+.phrase-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.clickevent {
+  cursor: pointer;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
 #hi{
   background: rgba(241,63,247,1);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #bye{
   background: rgba(0,253,81,1);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #bathroom{
   background: rgba(0,254,255);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #yesPlease{
   background: rgba(255,240,0,1);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #noThankYou{
   background: rgba(245,120,10,1);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #what{
   background: rgba(0,253,81,1);
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #whenIsLunch{
   background: hotpink;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #help{
   background-color: rosybrown;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #happy{
   background-color: lightpink;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #pain{
   background-color: royalblue;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #thirsty{
   background-color: blueviolet;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #hungry{
   background-color: burlywood;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
+
 #pain{
   background-color: cyan;
-  width: 70px;
-  height: 70px;
-  text-align: center;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/******************************************/
