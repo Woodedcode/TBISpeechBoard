@@ -146,8 +146,3 @@ if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !=
       //Fired when the speech recognition service returns a final result with no significant recognition. This may involve some degree of recognition, which doesn't meet or exceed the confidence threshold.
       console.log('SpeechRecognition.onnomatch');
   }
-
-
-
-
-
