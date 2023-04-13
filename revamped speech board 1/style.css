@@ -1,0 +1,26 @@
+/* CSS code */
+#textInput {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #buttonBoard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
