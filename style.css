@@ -1,93 +1,26 @@
- *::before, *::after{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  padding: 2rem;
-}
-
-.container{
-  margin: 0 auto;
-  max-width: 80%;
-}
-
-#voiceSelect {
-  margin-block: 1rem;
-}
-
-/******************************************
-/* PHRASES
-/******************************************/
-
-.phrase-container{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-}
-
-.clickevent {
-  cursor: pointer;
-  text-align: center;
-  display: grid;
-  place-items: center;
-  padding: 1rem;
-}
-
-#hi{
-  background: rgba(241,63,247,1);
-}
-
-#bye{
-  background: rgba(0,253,81,1);
-}
-
-#bathroom{
-  background: rgba(0,254,255);
-}
-
-#yesPlease{
-  background: rgba(255,240,0,1);
-}
-
-#noThankYou{
-  background: rgba(245,120,10,1);
-}
-
-#what{
-  background: rgba(0,253,81,1);
-}
-
-#whenIsLunch{
-  background: hotpink;
-}
-
-#help{
-  background-color: rosybrown;
-}
-
-#happy{
-  background-color: lightpink;
-}
-
-#pain{
-  background-color: royalblue;
-}
-
-#thirsty{
-  background-color: blueviolet;
-}
-
-#hungry{
-  background-color: burlywood;
-}
-
-#pain{
-  background-color: cyan;
-}
-
-
-
+/* CSS code */
+#textInput {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #buttonBoard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
