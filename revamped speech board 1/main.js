@@ -27,6 +27,8 @@ function createButton() {
         }
     }
 
+    
+    
     synth.speak(utterThis);
 
     // Add event listener to the new button
