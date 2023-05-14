@@ -1,4 +1,3 @@
-// 
 // const synth = window.speechSynthesis;
 // 
 // const phrases = document.querySelectorAll(".clickevent");
